@@ -11,7 +11,8 @@ def divide(a, b):
   if b == 0:
     return "Cannot divide by zero"
   return a / b
-
+def modulo(a,b):
+  return a%b
 if __name__ == "__main__":
  x = 10
  y = 5
